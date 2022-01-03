@@ -65,4 +65,147 @@ body{
 html{
   overflow-x: hidden !important;
 }
+img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+h3 {
+	font-weight: 700;
+	color: #0ABEAD;
+	font-size: 50px;
+}
+h4 {
+	color: #0CBFAE;
+	font-size: 28px;
+	font-weight: 600;
+}
+/*---------------------1.header_main_area------------------*/
+.header_content_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 0 20px;
+}
+.logo_area a {
+	font-size: 78px;
+	font-weight: 900;
+	color: #0ABEAD;
+}
+.menu ul {
+	display: flex;
+	align-items: center;
+}
+.menu ul li a {
+	display: inline-block;
+	color: #95A5C6;
+	font-weight: 500;
+	font-size: 16px;
+	padding: 0 20px;
+  transition: 0.3s all;
+}
+.header_main_area {
+	background: #1F2935;
+}
+.menu ul li a:hover{
+  color: #0ABEAD;
+}
+/*------------2.banner_main_area-----------*/
+.banner_main_area{
+  position: relative;
+}
+.banner_main_area::after {
+	position: absolute;
+	content: "";
+	width: 130%;
+	height: 321px;
+	background: url(../images/Shape.png) no-repeat scroll 0 0 / cover;
+	bottom: 0;
+	left: -15%;
+}
+.banner_content_area {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin: 125px 0 250px;
+}
+.portfolio_images_banner {
+	max-width: 560px;
+	width: 100%;
+}
+.left_banner_area{
+  flex: 0 0 50%;
+}
+.right_banner_area{
+  flex: 0 0 50%;
+}
+.banner_txt_area h4 span {
+	color: #F57F17;
+}
+.banner_txt_area h4 {
+	margin-bottom: 15px;
+}
+.banner_txt_area p {
+	color: #95A5C6;
+	font-weight: 400;
+	font-size: 16px;
+	margin: 14px 0;
+}
+.btn_style_1 {
+	background: #09BEAD;
+	color: #FFF !important;
+	font-weight: 600;
+	font-size: 16px;
+	display: inline-block;
+	padding: 18px 60px;
+	border-radius: 50px;
+	box-shadow: 0 16px 29px rgba(11,190,173,0.4);
+  border: 1px solid #09BEAD;
+  transition: 0.3a all;
+}
+.btn_style_2 {
+	background: #F57F17;
+	color: #FFF !important;
+	font-weight: 600;
+	font-size: 16px;
+	display: inline-block;
+	padding: 18px 60px;
+	border-radius: 50px;
+  border: 1px solid #F57F17;
+  transition: 0.3a all;
+}
+/* .btn_style_1:hover{
+  color: #09BEAD;
+  background: #FFF;
+  border-color: #FFF;
+} */
+.hire_btn_area {
+	margin-top: 40px;
+}
+.hire_btn_area a:nth-child(1){
+  margin-right: 30px;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
